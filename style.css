@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+/* giris alani ve buton*/
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* kullanicibilgikarti */
+#user-info {
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#user-info h2 {
+    margin: 0;
+    color: #333;
+}
+
+#user-info img {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#user-info p {
+    color: #666;
+    line-height: 1.5;
+}
+
+#user-info a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#user-info a:hover {
+    text-decoration: underline;
+}
